@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        text-align: center;
+        background-color:#393E46;   
+    }
+
+    button{
+        height:220px;
+        width:220px;
+        margin:1% 1%;
+        border-radius: 30px;
+        border:10px solid black;
+    }
+
+    .container{
+        margin-top: 60px;
+    }
+
+    h1{
+        font-size: 80px;
+        font-family:cursive;
+    }
+
+    .red{
+        background-color: red;
+    }
+    .green{
+        background-color:green;
+    }
+    .blue{
+        background-color: blue;
+    }
+    .yellow{
+        background-color: yellow;
+    }
+    .pressed{
+        box-shadow: 0 0 30px white;
+    }
+    .game-over{
+        background-color: red;
+    }
+
+</style>
+<body>
+    <h1>PRESS ANY KEY TO START</h1>
+    <div class="container">
+        <button class="red"></button>
+        <button class="blue"></button><br>
+        <button class="green"></button>
+        <button class="yellow"></button>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <script src="index.js"></script>   
+</body>
+</html>
